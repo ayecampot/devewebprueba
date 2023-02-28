@@ -1,0 +1,252 @@
+
+
+.services{
+    background-image: url(../images/trama-hero.png);
+    background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+    padding-top: 8rem;
+    justify-content: space-between;
+    align-items: center;
+      
+ 
+
+   .img{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+   }
+
+   .text{
+    padding-left:3rem;
+
+   h1{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 50px;
+      line-height: 120%;
+      color: #000000;
+      }
+      
+      p{
+          margin-top: 0.5rem;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 120%;
+          color: #000000;
+        
+      }
+      img{
+        margin-top: 1rem;
+      
+      }
+   }
+}
+
+   
+.services-section{
+    margin: 0 3rem 0 3rem;
+    div{
+        h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 120%;
+            color: #5B3587;
+            margin-left:4rem;
+            margin-bottom: 3rem;
+        }
+    }
+    .services-icons{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        .services-flex{
+            margin-top: 2rem;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120%;
+            color: #3B3B3B;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .border{
+            border-right: 1px solid #D9D2E2;
+            border-bottom:1px solid #D9D2E2;
+            border-left: 1px solid #D9D2E2;
+            border-radius: 0px 0px 20px 20px;
+        }
+        .b-1{
+      
+            border-top: 3px solid #EE7D5A;
+            border-radius: 0 0 20px 21px;
+        }
+        .b-2{
+      
+            border-top: 3px solid #009FDB;
+            border-radius: 0 0 20px 21px;
+        }
+        .b-3{
+      
+            border-top: 3px solid #E30937;
+            border-radius: 0 0 20px 21px;
+        }
+        .b-4{
+      
+            border-top: 3px solid  #BB1271;
+            border-radius: 0 0 20px 21px;
+        }
+        .b-5{
+      
+            border-top: 3px solid #5A3586;
+            border-radius: 0 0 20px 21px;
+        }
+        .b-6{
+      
+            border-top: 3px solid #0067A8;
+            border-radius: 0 0 20px 21px;
+        }
+
+
+    }
+
+    .services-card{
+        display: flex;
+        align-items: center;
+        margin: 4rem 3rem 4rem 3rem;
+        background: rgba(217, 217, 217, 0.1);
+        border: 1px solid rgba(83, 46, 127, 0.2);
+        border-radius: 0px 0px 20px 21px;
+        border-width: 3px;
+        border-style: solid;
+        border-top-color: $lightBlue;
+
+      
+        p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 180%;
+            color: #3B3B3B;
+        }
+        
+        .card-icon{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+         
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 120%;
+                color: #000000;
+                margin-bottom: 2rem;
+            }
+          
+        }
+        
+    }
+   
+  
+ } 
+ 
+ .technology{
+    margin-bottom: rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: linear-gradient(
+      to bottom,
+      #EE7D5A 0%,
+      #EE7D5A 50%,
+      white 0%,
+      white 50%
+    );
+    font-style: $fontInter;
+    z-index: 10;
+   
+}
+   
+
+    
+    .technology-logos {
+        padding: 2rem;
+        font-family: Inter;
+        font-weight: 500;
+        line-height: 160%;
+        font-size: 16px;
+        border-radius: 15px;
+        box-shadow: 0px 50px 70px rgba(129, 123, 104, 0.25);
+        background-color: white;
+        margin-top: 3em;
+        margin-bottom: 5em;
+        width: 73%;
+
+        h6{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 27px;
+            line-height: 120%;
+            text-align:center;
+            color: $violet;
+        }
+
+        .tech-logos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+          img{
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            margin-top: 2rem;
+          }
+          div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 120%;
+            text-align: center;
+            color: #AAAAAA;
+          }
+         }        
+      }
+
+      
+      @media (max-width: 768px) {
+        .services{        
+           .img{
+            width: 100%;
+            display: flex;
+            justify-content: end;
+           }
+        }
+        
+        .services-section{
+            margin: 0 3rem 0 3rem;
+        .services-card{
+            flex-direction: column;
+            margin: 2rem 0rem 2rem 0rem;
+        }
+    }
+        
+}   

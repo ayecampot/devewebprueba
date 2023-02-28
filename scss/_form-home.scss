@@ -1,0 +1,463 @@
+
+
+
+.contacto {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+      to bottom,
+      #EE7D5A 0%,
+      #EE7D5A 60%,
+      white 60%,
+      white 100%
+    );
+    font-style: $fontInter;
+    z-index: 10;
+    position: relative;
+
+   
+}
+
+
+.seccion-contact{
+  img{
+    margin-top: 1rem;
+  }
+}
+
+
+
+//Página de contacto
+
+.contacto-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/trama-hero-2.png);
+  font-style: $fontInter;
+
+ 
+}
+
+.bg-orange{
+  position: absolute;
+  background-color: $orange;
+  width: 100%;
+  height: 20rem;
+  transform: translatey(130%);
+}
+
+.rombo-contacto{
+  position: absolute;
+  transform: translate(10%, 80%);
+  opacity: 0.4;
+ 
+}
+
+
+.text-contact{
+  margin-top: 5rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 120%;
+  color: #000000;
+ 
+
+}
+
+.p-contact{
+    margin-top: 0.5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: #000000;
+    
+}
+
+
+.seccion-blog {
+  font-family: 'Inter';
+  font-style: normal;
+  color: white;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+
+
+.seccion-blog{
+
+p {
+  font-weight: 500;
+  font-family: Inter;
+  font-size: 16px;
+  text-align: right;
+}
+
+ h1 {
+  font-size: 1.56rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+}
+
+.button {
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 8px 20px;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+}
+
+.formulario-contacto {
+  font-family: Inter;
+  font-weight: 500;
+  width: 80%;
+  line-height: 160%;
+  font-size: 16px;
+  border-radius: 15px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: white;
+  color: $violet;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 60%;
+}
+
+
+
+.formulario-contacto h4 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-left: 1.25em;
+  margin-bottom: 2rem;
+}
+
+.formulario-contacto > * {
+  margin: 0 2em;
+}
+
+.formulario-contacto > *:first-child {
+  margin-top: 1em;
+}
+
+.formulario-contacto > *:last-child {
+  margin-bottom: 1.5em;
+}
+
+.formulario-contacto button:last-child {
+  margin-left: auto; /* Botón a la derecha */
+}
+
+
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-direccion-desktop {
+  display: none;
+}
+
+.seccion-direccion-mobile {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-family: Inter;
+  font-size: 0.75em;
+  font-weight: 500;
+  color: var(--violeta);
+  text-align: center;
+}
+
+.contacto-first {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bg-violeta{
+  background-color: $violet;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .contacto {
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: stretch;
+    width: 100%;
+    padding-bottom: 5rem;
+    padding-top: 8rem;
+    z-index:10;
+    position: relative;
+  
+  }
+
+  .contacto-page{
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: stretch;
+    width: 100%;
+    padding-bottom: 5rem;
+    padding-top: 8rem;
+    z-index:10;
+    position: relative;
+  }
+
+  .contacto .contacto-first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 6em;
+    z-index: 20;
+    position: relative;
+  }
+
+  .formulario-contacto {
+    order: 2;
+    width: 45%;
+    padding: 2rem;
+  }
+
+  .seccion-blog {
+    width: auto;
+  }
+
+  .seccion-direccion-mobile {
+    display: none;
+  }
+
+  .seccion-direccion-desktop {
+    display: flex;
+    text-align: right;
+    font-family: Inter;
+    font-size: 0.75em;
+    font-weight: 500;
+    color:$violet;
+    text-align: rigth;
+  }
+  .bg-violeta{
+    background-color: $violet;
+}
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+/* -- forms -- */
+
+  .validated input:invalid, .validated textarea:invalid {
+    border-bottom: 1px solid red;
+    background: #fbb;
+  }
+
+  input {
+    box-sizing: border-box;
+    background: none;
+    color: $violet;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid $violet;
+    padding: 0.3em 0.1em;
+  }
+
+  textarea {
+    margin-top: 0.5em;
+    box-sizing: border-box;
+    border: none;
+    color: $black;
+    box-shadow: 0px 5px 4px -1px var(--sombra);
+    resize: none;
+    min-height: 10em;
+    background-color: $lightGrey;
+    border-radius: 15px;
+    width: 100%;
+    padding: 1em 1.5em;
+  }
+
+  .button {
+      color: white;
+      border: none;
+      border-radius: 80px;
+      margin-top: 20px;
+      padding: 16px 32px;
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 500;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    
+
+  .field {
+    margin-top: 1em;
+  }
+
+  .input-group input:focus, textarea:focus {
+    outline: none;
+  }
+
+  .input-group input:focus ~ label, textarea:focus ~ label, input.filled ~ label, textarea:valid ~ label {
+    top: -1em;
+    font-size:12px;
+    color: $violet;
+  }
+
+  input:focus ~ .bar:before, textarea:focus ~ .bar:before {
+    width: 100%;
+  }
+
+  .input-group {
+    position: relative;
+    margin-top: 1em;
+  }
+
+  .input-group label {
+    color: $violet;
+    position: absolute;
+    pointer-events: none;
+    left: 0.1em;
+    top: 0.2em;
+    transition: 300ms ease all;
+  }
+
+  .input-group .bar {
+    position: relative;
+    display: block;
+  }
+
+  .input-group .bar:before {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: $violet;
+    transition: 300ms ease all;
+    left: 0;
+  }
+
+  input[type="range"] {
+    accent-color:$violet;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    opacity: 0;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    opacity: 0;
+  }
+
+  input[type="range"]::-ms-thumb {
+    opacity: 0;
+  }
+
+  .range-field {
+    display: flex;
+    align-items: center;
+  }
+
+  .range-field #budget_text {
+    width: 35%;
+    text-align: right;
+  }
+
+  .bg-violeta{
+      background-color: $violet;
+  }
+
+
+}
+
+.icon-form{
+  display:block;
+  position: relative;
+  z-index: 1;
+  transform: translateY(-114%);
+  opacity: 0.6;
+}
+
+
+//Media queires celulares
+
+@media (max-width: 768px) {
+    .icon-form{
+      display:none;
+    }
+
+    .contacto-first {
+      justify-content: center;
+      display: flex;
+  }
+
+  .seccion-blog p {
+    text-align: left;
+  }
+
+
+  .formulario-contacto {
+    font-family: Inter;
+    font-weight: 500;
+    width: 80%;
+  
+    h4{
+      margin-left: 16px;
+    }
+  }
+
+    input {
+      margin-bottom: 0.8rem;
+      box-sizing: border-box;
+      color: #5b3587;
+      width: 100%;
+      background: none;
+      border: none;
+      border-bottom: 1px solid #5b3587;
+      border-radius: 0;
+      padding: 0.3em 0.1em;
+  }
+
+  input[type="range"] {
+    accent-color: #5b3587;
+  }
+
+  .text-contact{
+    margin: 11rem 0.5rem 0 0.5em;
+    font-size: 35px;
+    font-size: 40px;
+    margin-left: 1rem;
+  }
+  
+  .p-contact{
+      margin: 0rem 0.5rem 0 0.5em;
+      font-size: 35px;
+      
+  }
+  .rombo-contacto{
+    display: none;
+  }
+  .bg-orange{
+    margin-top: 3rem;
+  }
+  
+    
+}

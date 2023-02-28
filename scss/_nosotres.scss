@@ -1,0 +1,419 @@
+.nosotres-section{
+    background-image: url(../images/fondo-nosotres.png);
+    background-repeat:no-repeat; 
+	background-attachment: fixed; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 3rem;
+ 
+   div{
+    width: 70%;
+
+    h2{
+        margin: 2rem 0 1rem 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 120%;
+        color: #454B54;
+    }
+
+    p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 180%;
+        color: #000000;
+    }
+}
+}
+
+.nosotres-video{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: linear-gradient(
+      to top,
+
+      #5B3587 70%,
+      white 0%,
+   
+    );
+    font-style: $fontInter;
+    z-index: 10;
+  
+    img{
+        width: 80%;
+        height: auto;
+    }
+
+   
+}
+
+
+.nosotres-frase{
+    background-color: $violet;
+    display: flex;
+    justify-content:center;
+
+    .comillas-nosotres{
+        margin-top: 7rem;
+        opacity: 0.1;
+        transform: translate(40%,-35%);
+    }
+
+    .text-nosotres{
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+        color: $white;
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 120%;
+        span{
+            color:$yellow;
+        }
+       
+    }
+
+    .nosotres-trama{
+        display: block;
+        transform: translate(48%, -50%);
+      
+    }
+} 
+
+.flex-nosotres{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .texto-comunidad{
+        margin-left: 3rem;
+        padding: 4rem;
+        h4{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 120%;
+            text-align: left;
+            color: #EE7D5A;
+            margin-bottom: 2rem;;
+        }
+        p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 180%;
+            color: #454B54;
+         
+        }
+    }
+
+    //Carousel
+
+    .img-carousel{
+       
+        margin:5rem;
+        width: 100%;
+        height: auto;
+        .carousel {
+            position: relative;
+            filter: drop-shadow(0px 50px 70px rgba(0, 0, 0, 0.25));
+            margin-top: 26px;
+        }
+        
+        .carousel-inner {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+        
+        .carousel-open:checked + .carousel-item {
+            position: static;
+            opacity: 100;
+        }
+        
+        .carousel-item {
+            position: absolute;
+            opacity: 0;
+            -webkit-transition: opacity 0.6s ease-out;
+            transition: opacity 0.6s ease-out;
+        }
+        
+        .carousel-item img {
+            display: block;
+            height: auto;
+            max-width: 100%;
+        }
+        
+        .carousel-control {
+            background: rgba(0, 0, 0, 0.28);
+            border-radius: 50%;
+            color: #fff;
+            cursor: pointer;
+            display: none;
+            font-size: 40px;
+            height: 40px;
+            line-height: 35px;
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translate(0, -50%);
+            cursor: pointer;
+            -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+            text-align: center;
+            width: 40px;
+            z-index: 10;
+        }
+        
+        .carousel-control.prev {
+            left: 2%;
+        }
+        
+        .carousel-control.next {
+            right: 2%;
+        }
+        
+        .carousel-control:hover {
+            background: rgba(0, 0, 0, 0.8);
+            color: #aaaaaa;
+        }
+        
+        #carousel-1:checked ~ .control-1,
+        #carousel-2:checked ~ .control-2,
+        #carousel-3:checked ~ .control-3 {
+            display: block;
+        }
+        
+        .carousel-indicators {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            bottom: 2%;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 10;
+        }
+        
+        .carousel-indicators li {
+            display: inline-block;
+            margin: 0 5px;
+        }
+        
+        .carousel-bullet {
+            color: grey;
+            cursor: pointer;
+            display: block;
+            font-size: 35px;
+        }
+        
+        .carousel-bullet:hover {
+            color: #aaaaaa;
+        }
+        
+        #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+        #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+        #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+            color: black;
+        }
+        
+        #title {
+            width: 100%;
+            position: absolute;
+            padding: 0px;
+            margin: 0px auto;
+            text-align: center;
+            font-size: 27px;
+            color: rgba(255, 255, 255, 1);
+            font-family: 'Open Sans', sans-serif;
+            z-index: 9999;
+            text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+        }
+          
+    }
+}
+
+
+.software-libre{
+    background-color: $blue;
+    .t-software-libre{
+        margin: 0rem 2rem 2rem 2rem;
+        padding: 4rem 2rem 0 2rem;
+        h4{
+            margin-bottom: 2rem;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 120%;
+            color: #FFFFFF;
+        }
+
+        p{
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 180%;
+            color: #FFFFFF;
+        }
+        .codigo-libre-d{
+            display:inline;
+        }
+        .codigo-libre-m{
+            display:none;
+        }
+    }
+
+    .libertades{
+        padding:2rem;
+        display:flex;
+        justify-content: space-around;
+        margin-top: 3rem;
+            
+        div{
+   
+            margin-right: 1rem;
+            margin-bottom: 4rem;
+            h5{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 96px;
+                line-height: 120%;
+                color: rgba(255, 255, 255, 0.4);
+                margin-right: 2rem;
+                
+            }
+
+            p{
+                font-family: 'Inter';
+                font-style: italic;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 120%;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .libertades-flex{
+        display: flex;
+        align-items: center;
+    }
+}
+
+//Media quieres
+
+
+@media (min-width: 1400px) { 
+        
+    .nosotres-section{
+        background-size: cover;
+      
+    }
+}
+
+@media (max-width: 768px) {
+
+    .flex-nosotres{
+        display: flex;
+        flex-direction: column;
+        .texto-comunidad{
+            padding: 3rem;
+            margin-left: 0rem;
+        }
+
+        .img-carousel{
+            margin:0rem;
+        }
+    }
+
+    .services .text {
+        margin-top: 3rem;
+    }
+
+    .software-libre{
+       
+        .t-software-libre{
+          
+            .codigo-libre-d{
+                display:none;
+            }
+            .codigo-libre-m{
+                display:block;
+                img{
+                    transform: translateX(-15%);
+                }
+                
+            }
+        }
+    
+        .libertades{
+            flex-direction: column;
+            div{
+                margin-bottom: 2rem;
+                margin-right: 0rem;
+            }
+            .libertades-flex{
+                flex-direction: column;
+            }
+        }
+
+    }
+    .nosotres-frase{
+        background-color: $violet;
+        display: block;
+        .comillas-nosotres{
+            margin-left: 3rem;
+            margin-top: 0rem;
+            opacity: 0.1;
+            transform: translate(0%, 40%);
+          
+            img{
+                width: 50%;
+            }
+        }
+    
+        .text-nosotres{
+            margin-top: 4rem;
+            padding-bottom: 3rem;
+            margin-left:2rem;
+            color: $white;
+            font-family: 'Inter';
+            font-style: italic;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 120%;
+            span{
+                color:$yellow;
+            }
+        .text-nosotres{
+            transform: translateX(-55%);
+            font-size: 40px;
+        }
+        
+    } 
+    .nosotres-trama{
+        display: none;
+    
+    }  
+
+
+    
+    
+   
+    }  
+}

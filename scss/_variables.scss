@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+  }
+
+//Colors
+$violet: #5B3587;
+$lightBlue: #009FDB;
+$blue: #0067A8;
+$lightGrey: #EEEFE8;
+$black: #3B3B3B;
+$fuchsia: #E30937;
+$orange: #EE7D5A;
+$magenta: #BB1271;
+$yellow: #F9D83D;
+$white: #FFFFFF;
+
+//Border radius
+$radiusBtn: 40px;
+$radiusCards: 20px;
+
+//Box Shadow
+$boxShadow: 0px 50px 70px rgba(129, 123, 104, 0.25);
+
+//Fonts
+$fontInter:'Inter', sans-serif;
+$fontSpartan: 'Spartan', sans-serif;
+
+.mt{
+  margin-top: 4rem;
+}
+
+
+$animationSpeed: 8s;

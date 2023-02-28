@@ -1,0 +1,67 @@
+.glide__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+
+}
+
+.glide__arrow{
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  padding: 1em;
+  cursor: pointer;
+  top: 35%;
+}
+
+.glide__arrow:hover,
+.glide__arrow:focus{
+  transform: scale(0.7);
+  outline: none;
+  
+}
+.glide__arrow--left{
+  left: 8px;
+}
+.glide__arrow--right{
+  right: 8px;
+}
+.fa-chevron{
+  font-size: 1.5rem;
+  border-radius: 50%;
+  color: $blue;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  display: inline-block;
+  
+  transition:0.5s;
+}
+.card-c {
+width:100%;
+height: auto;
+padding: 1.5em 1em 2em 1em;
+text-align: center;
+}
+
+
+
+.card__img {
+width:80%;
+height: auto;
+margin-bottom: 1em;
+
+}
+
+
+@media (max-width: 768px) {
+
+  .glide__slides{
+      overflow: hidden;
+  }
+
+  
+}
+
+

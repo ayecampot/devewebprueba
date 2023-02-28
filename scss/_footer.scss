@@ -1,0 +1,104 @@
+
+.footer{
+    position: absolute;
+    width: 100%;
+    display:flex;
+    background-color: $violet;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    flex-flow:wrap;
+    z-index:600;
+
+  
+    .logo{
+        align-self: center;
+        padding-left: 3rem;
+
+    }
+
+    .footer-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow:wrap;
+
+        .social-links{
+            padding-right: 3rem;
+            
+        }
+
+        .bi{
+            font-size: 30px;
+            color: $white;
+            padding-right: 1rem;
+            font-weight: 600;
+
+        }
+
+        .p-footer{
+            p{
+            color:$white;
+            font-family: 'Inter';
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140.5%;
+            padding-right: 6rem;
+        }
+        }
+
+        .data-fiscal{
+            padding-right: 3rem;
+        
+        }
+    }
+    
+
+}
+
+@media (max-width: 768px) {
+
+
+    .footer{
+        justify-content: center;
+        flex-flow:wrap;
+        .logo{
+            align-self: center;
+            padding-left: 0rem;
+        }
+    
+        .footer-flex{
+            flex-direction: column;
+    
+            .social-links{
+                margin-top: 1.5rem;
+                padding-right: 0rem;
+                
+            }
+    
+            .bi{
+              
+                padding-right: 0.5rem;
+                padding-left: 0.5rem;
+    
+            }
+    
+            .p-footer{
+                margin: 1.5rem 0 1.5rem 0;
+
+                p{
+                    
+                    padding-right: 0rem;
+                }
+            }
+            .data-fiscal{
+                padding-right: 0rem;
+            }
+        }
+        
+    
+    }
+}

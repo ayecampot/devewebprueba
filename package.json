@@ -1,0 +1,36 @@
+{
+  "name": "web-devecoop",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0",
+    "@lhci/cli": "^0.9.0",
+    "@parcel/compressor-brotli": "^2.7.0",
+    "@parcel/compressor-gzip": "^2.7.0",
+    "http-server": "^14.1.1",
+    "lottie-web": "^5.9.6",
+    "parcel": "^2.7.0",
+    "puppeteer": "^17.0.0"
+  },
+  "scripts": {
+    "build": "parcel build index.html",
+    "serve": "parcel index.html",
+    "test": "lhci autorun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/devecoop/web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/devecoop/web/issues"
+  },
+  "homepage": "https://gitlab.com/devecoop/web#readme",
+  "devDependencies": {
+    "@parcel/optimizer-data-url": "^2.7.0",
+    "@parcel/transformer-inline-string": "^2.7.0",
+    "@parcel/transformer-sass": "^2.7.0",
+    "sharp": "^0.29.3"
+  }
+}

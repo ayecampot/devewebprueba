@@ -1,0 +1,133 @@
+//Estilos de detalle de proyecto
+
+.header-project{
+  
+    margin-bottom: 3rem;
+    padding-top: 8rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .breadcrumb{
+        margin-top: 2rem;
+        padding-left: 3rem;
+        display:flex;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: right;
+        color: #3B3B3B;
+        .breadcrumb-active{
+        font-weight: 700;
+        }
+    }
+
+    .img-project{
+        padding-right: 3rem;
+    }
+}
+
+.project-section{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+ 
+   div{
+    width: 70%;
+
+        h2{
+            margin: 1rem 0 1rem 0;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 120%;
+            color: #666666;
+
+        }
+
+        p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 180%;
+            color: #666666;
+        }
+    }
+    .project-img{
+
+        margin-top: 1rem;
+        width: 50%;
+        align-self: center;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.bg-tech{
+    display:flex;
+    justify-content: center;
+   
+}
+
+.clients-title-project{
+    padding-left: 3rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: left;
+    color: #454B54;
+}
+
+
+.project-tech{
+    padding: 3rem;
+    background: #EEEFE8;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    h6{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 120%;
+        text-align: center;
+        color: #A8A6A6;
+    }
+    .tech-logos{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        div{
+            display:flex;
+            align-content: center;
+            flex-direction: column;
+            p{
+                align-self: center;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 120%;
+                text-align: center;
+                color: #A8A6A6;
+            }
+        }
+    }
+}
+

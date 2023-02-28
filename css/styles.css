@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-@font-face {
-  font-family: Inter;
-}
 
 @font-face {
     font-family: spartan;
@@ -409,8 +406,6 @@ header nav{
   margin-bottom: 1rem;
 }
 
-.seccion-direccion {
-}
 
 .contacto form {
     display: flex;
@@ -755,7 +750,7 @@ header nav{
         margin:0px 100px 100px 100px;
         padding:50px;
         background-color: #4b5d9f;
-        background-image: url(../img/nosotres-computer.jpg);
+        background-image: url(../images/nosotres-computer.jpg);
         background-size: auto;
         background-repeat: no-repeat;
         background-position: right;
@@ -770,8 +765,7 @@ header nav{
         line-height: 25px;
     }
 
-    .nosotres .compromiso-con-la-comunidad{
-    }
+  
 
     .nosotres .compromiso-con-la-comunidad .text{
         text-align: right;

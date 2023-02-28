@@ -1,69 +1,250 @@
- /* HEADER Y NAV */
 
-  header {
-    z-index: 500;
-    position: fixed;
-    width: 100%;
-    background-color: $white;
-    display: flex;
-    flex-flow: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 1em 1em 1em;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-    .brand {
-        transition: all 0.2s ease-in-out;
-      }
-    
-      .menu{
-        display: flex;
-        li {
-            color:$violet;
-            margin-left: 2rem;
-            font-family: $fontSpartan;
-            font-weight: 400;
-            font-size:17px;
-            line-height: 17px;
-          }
-          .contact-btn{
-            background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #5B3587;
-            border-radius: 40px;
-            padding: 11.5px  12.5px  11.5px  12.5px ;
-            transform: translateY(-25%);
-            margin-left: 3rem;
-              a{
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 14px;
-                line-height: 130%;
-                color:$white;
-              }
-          }
+ul {
+    list-style: none;
+}
 
-          .contact-lenguage{
-            font-style: normal;
-            font-weight: 400;
-            font-size: 15px;
-            line-height: 17px;
-            text-align: right;
-            color: #512D7D;
-            margin-left: 4rem;
-            margin-right: 2rem;
-            margin-top: 5px;
-
-            span{
-              font-weight: 700;
+.header {
+        font-family: $fontSpartan;
+        background-color: #fff;
+        box-shadow: 1px 1px 5px 0px gray;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        .shrink {
+            margin-top: 2rem;
+            height: 100vh;
+            max-height: 69px;
+            overflow: hidden;
+            transition: max-height .5s ease-in-out;
+            display: flex;
+            flex-direction: column;
+        }
+        .logo {
+            display: inline-block;
+            color: white;
+            font-size: 60px;
+            margin-left: 10px;
+        }
+        .nav {
+            display: flex;
+            flex-flow: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 1em 1em 1em;
+            transition: max-width .5s ease-in-out;
+     
+                .menu{
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    li {
+                        a{
+                            margin-left: 2rem;
+                        }
+                        color:$violet;
+                        margin-left: 2rem;
+                        font-family: $fontSpartan;
+                        font-weight: 400;
+                        font-size:17px;
+                        line-height: 17px;
+                      }
+                      .contact-btn{
+                        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #5B3587;
+                        border-radius: 40px;
+                        padding: 11.5px  12.5px  11.5px  12.5px ;
+                        transform: translateY(-25%);
+                        margin-left: 3rem;
+                          a{
+                            margin:0;
+                            font-family: $fontSpartan;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 130%;
+                            color:#fff;
+                          }
+                      }
+            
+                      .contact-lenguage{
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 15px;
+                        line-height: 17px;
+                        text-align: right;
+                        color: #512D7D;
+                        margin-left: 4rem;
+                        margin-right: 2rem;
+                        margin-top: 5px;
+            
+                        span{
+                          font-weight: 700;
+                        }
+                      }
+                  }
+                }
             }
+        
+        .hamb {
+            cursor: pointer;
+            position: absolute;
+            right: 0;
+            margin: 20px auto;
+            height: 29px;
+            margin-right: 20px;
+            .hamb-line {
+                background:green;
+                display: block;
+                height: 2px;
+                position: relative;
+                top: 50%;
+                transform: translateY(-1px);
+                width: 24px;
+                &::before,
+                &::after {
+                    background: green;
+                    content: '';
+                    display: block;
+                    height: 100%;
+                    position: absolute;
+                    transition: all .5s ease-in-out;
+                    width: 100%;
+                }
+                &::before {
+                    top: 5px;
+                }
+                &::after {
+                    top: -5px;
+                }
+            }
+        }
+        .sideMenu {
+            display: none;
+            &:checked,
+            &.opened {
+                &~.shrink {
+                    max-height: 100vh;
+                }
+            }
+            &:checked,
+            &.opened {
+                &~.hamb {
+                    .hamb-line {
+                        background: transparent;
+                        &::before {
+                            transform: rotate(-45deg);
+                            top: 0;
+                        }
+                        &::after {
+                            transform: rotate(45deg);
+                            top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    
+
+    .contact-btn{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #5B3587;
+        border-radius: 40px;
+        padding: 11.5px  12.5px  11.5px  12.5px ;
+        transform: translateY(-25%);
+        margin-left: 3rem;
+          a{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 130%;
+            color:#fff;
           }
       }
-  }
-  
- 
 
-  
+      .contact-lenguage{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 17px;
+        text-align: right;
+        color: #512D7D;
+        margin-left: 4rem;
+        margin-right: 2rem;
+        margin-top: 5px;
 
-
-  
+        span{
+          font-weight: 700;
+        }
+      }
+    /* Responsiveness */
+    @media (min-width: 768px) {
+        .header {
+            .sideMenu {
+                &:checked,
+                &.opened {
+                    &~.shrink {
+                        max-height: 69px;
+                    }
+                }
+            }
+            .shrink {
+                display: block;
+                flex-direction: none;
+                overflow: visible;
+                transition: none;
+            }
+            .nav {
+                top: 0;
+                position: relative;
+                float: right;
+                width: fit-content;
+                height: auto;
+                overflow: visible;
+                .menu {
+                    padding-bottom: 0px;
+                    flex-direction: row;
+                    li {
+                        float: left;
+                        position: relative;
+                        .subMenu {
+                            position: absolute;
+                            background-color: green;
+                            top: 69px;
+                            right: 0px;
+                            margin-left: 0px;
+                            li {
+                                float: none;
+                                width: 100%;
+                                a {
+                                    padding: 0 10px;
+                                    display: block;
+                                    white-space: nowrap;
+                                }
+                            }
+                        }
+                        .span,
+                        a {
+                            display: inline-block;
+                        }
+                        &:target {
+                            span {
+                                .arrow {
+                                    .icon {
+                                        transform: rotate(-135deg);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .menu a:hover {
+                    background-color: transparent;
+                    color: gray;
+                }
+            }
+            .hamb {
+                display: none;
+            }
+        }
+    }

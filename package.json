@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
+    "@glidejs/glide": "^3.6.0",
     "@lhci/cli": "^0.9.0",
     "@parcel/compressor-brotli": "^2.7.0",
     "@parcel/compressor-gzip": "^2.7.0",

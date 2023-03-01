@@ -23,9 +23,11 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
 }
 .header .shrink {
   margin-top: 2rem;
+  margin-bottom: 0.5rem;
   height: 100vh;
   max-height: 69px;
   overflow: hidden;
@@ -37,7 +39,7 @@ ul {
   display: inline-block;
   color: white;
   font-size: 60px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .header .nav {
   display: flex;
@@ -54,6 +56,7 @@ ul {
   flex-direction: column;
 }
 .header .nav .menu li {
+  margin-top: 10px;
   color: #5B3587;
   margin-left: 2rem;
   font-family: "Spartan", sans-serif;
@@ -63,13 +66,15 @@ ul {
 }
 .header .nav .menu li a {
   margin-left: 2rem;
+  margin-top: 2rem;
 }
 .header .nav .menu .contact-btn {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #5B3587;
   border-radius: 40px;
   padding: 11.5px 12.5px 11.5px 12.5px;
   transform: translateY(-25%);
-  margin-left: 3rem;
+  margin-left: 3.3rem;
+  margin-top: 18px;
 }
 .header .nav .menu .contact-btn a {
   margin: 0;
@@ -99,21 +104,20 @@ ul {
   cursor: pointer;
   position: absolute;
   right: 0;
-  margin: 20px auto;
+  margin: 50px 20px 20px 20px;
   height: 29px;
-  margin-right: 20px;
 }
 .hamb .hamb-line {
-  background: green;
+  background: #5B3587;
   display: block;
-  height: 2px;
+  height: 2.5px;
   position: relative;
   top: 50%;
   transform: translateY(-1px);
   width: 24px;
 }
 .hamb .hamb-line::before, .hamb .hamb-line::after {
-  background: green;
+  background: #5B3587;
   content: "";
   display: block;
   height: 100%;
@@ -146,37 +150,6 @@ ul {
   top: 0;
 }
 
-.contact-btn {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #5B3587;
-  border-radius: 40px;
-  padding: 11.5px 12.5px 11.5px 12.5px;
-  transform: translateY(-25%);
-  margin-left: 3rem;
-}
-.contact-btn a {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 130%;
-  color: #fff;
-}
-
-.contact-lenguage {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 17px;
-  text-align: right;
-  color: #512D7D;
-  margin-left: 4rem;
-  margin-right: 2rem;
-  margin-top: 5px;
-}
-.contact-lenguage span {
-  font-weight: 700;
-}
-
 /* Responsiveness */
 @media (min-width: 768px) {
   .header .sideMenu:checked ~ .shrink, .header .sideMenu.opened ~ .shrink {
@@ -202,31 +175,41 @@ ul {
     flex-direction: row;
   }
   .header .nav .menu li {
+    margin-top: 0px;
     float: left;
     position: relative;
   }
-  .header .nav .menu li .subMenu {
-    position: absolute;
-    background-color: green;
-    top: 69px;
-    right: 0px;
-    margin-left: 0px;
+  .header .nav .menu .contact-btn {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #5B3587;
+    border-radius: 40px;
+    padding: 11.5px 12.5px 11.5px 12.5px;
+    transform: translateY(-25%);
+    margin-left: 3rem;
+    margin-top: 0rem;
+    margin-bottom: 0px;
   }
-  .header .nav .menu li .subMenu li {
-    float: none;
-    width: 100%;
+  .header .nav .menu .contact-btn a {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #fff;
+    margin-top: 2rem;
   }
-  .header .nav .menu li .subMenu li a {
-    padding: 0 10px;
-    display: block;
-    white-space: nowrap;
+  .header .nav .menu .contact-lenguage {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: right;
+    color: #512D7D;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    margin-top: 0rem;
   }
-  .header .nav .menu li .span,
-  .header .nav .menu li a {
-    display: inline-block;
-  }
-  .header .nav .menu li:target span .arrow .icon {
-    transform: rotate(-135deg);
+  .header .nav .menu .contact-lenguage span {
+    font-weight: 700;
   }
   .header .nav .menu a:hover {
     background-color: transparent;

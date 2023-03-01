@@ -13,27 +13,31 @@
      <!-- Spartan Fonts-->
     <link href="https://fonts.cdnfonts.com/css/spartan" rel="stylesheet">
     <!-- Estilos -->
-    <link rel="stylesheet" href="../scss/main.css">
+    <link rel="stylesheet" href="../scss/main.scss">
     <title>Devecoop</title>
 </head>
 <body>
   
-    <header>
-        <a href="../index.html" class="brand"><img
-            src="../images/logo.png"
-            alt="Logo Devecoop"/>
-        </a>
-        <nav>
+    <header class="header">
+        <!-- Hamburger icon -->
+        <input class="sideMenu" type="checkbox" id="sideMenu" />
+        <label class="hamb" for="sideMenu"  onclick="openMenu('sideMenu')"><span class="hamb-line"></span></label>
+        <div class="shrink">
+          <!-- Logo -->
+          <a href="#" class="logo"><img src="../images/logo.png" ></a>
+          <!-- Menu -->
+          <nav class="nav">
             <ul class="menu">
-                <li ><a href="./nosotres">Nosotres</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./proyectos.html">Proyectos</a></li>
-                <!-- <li><a href="#">Blog</a></li> -->
-                <li class="contact-btn"><a href="./contacto.html">Contacto</a>
-                <li class="contact-lenguage"> ES | <span>EN </span></li>
+              <li ><a href="nosotres.html">Nosotres</a></li>
+              <li><a href="servicios.html">Servicios</a></li>
+              <li><a href="proyectos.html">Proyectos</a></li>
+              <!-- <li><a href="#">Blog</a></li> -->
+              <li class="contact-btn"><a href="contacto.html">Contacto</a>
+              <li class="contact-lenguage"> ES | <span>EN </span></li>
             </ul>
-        </nav>
-    </header>
+          </nav>
+        </div>
+      </header>
     <section class="proyects">
         <div class="text">
             <h1>Queremos llegar <br>lejos con vos</h1>

@@ -116,9 +116,9 @@ p {
   border: none;
   border-radius: 20px;
   margin-top: 20px;
-  padding: 8px 20px;
+  padding: 10px 20px;
   font-family: Inter;
-  font-size: 0.75rem;
+  font-size: 1em;
   font-weight: 500;
   text-decoration: none;
   text-align: center;
@@ -260,8 +260,6 @@ p {
 
 @media only screen and (min-width: 600px) {
 
-/* -- forms -- */
-
   .validated input:invalid, .validated textarea:invalid {
     border-bottom: 1px solid red;
     background: #fbb;
@@ -279,16 +277,15 @@ p {
   }
 
   textarea {
-    margin-top: 0.5em;
     box-sizing: border-box;
-    border: none;
-    color: $black;
+    color: #3b3b3b;
     box-shadow: 0px 5px 4px -1px var(--sombra);
-    resize: none;
     min-height: 10em;
-    background-color: $lightGrey;
-    border-radius: 15px;
     width: 100%;
+    background-color: #eeefe8;
+    border: none;
+    border-radius: 15px;
+    margin-top: 0.5em;
     padding: 1em 1.5em;
   }
 
@@ -457,6 +454,18 @@ p {
   }
   .bg-orange{
     margin-top: 3rem;
+  }
+  textarea {
+    box-sizing: border-box;
+    color: #3b3b3b;
+    box-shadow: 0px 5px 4px -1px var(--sombra);
+    min-height: 10em;
+    width: 100%;
+    background-color: #eeefe8;
+    border: none;
+    border-radius: 15px;
+    margin-top: 0.5em;
+    padding: 1em 1.5em;
   }
   
     

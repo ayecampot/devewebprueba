@@ -3,7 +3,7 @@
     background-size: cover;
     display:flex;
     flex-wrap: wrap;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
     padding-top: 8rem;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +63,9 @@
         box-shadow: 0px 50px 70px rgba(129, 123, 104, 0.25);
         border-radius: 16px;
         padding: 2rem;
-
+        margin-top: 3rem;
+        
+        
         .logo-cliente{
             width: 60%;
         }
@@ -106,6 +108,7 @@
         }
     }
  } 
+ 
  
  .clients{
     display: flex;
@@ -270,6 +273,8 @@
         
     }
     .clients-logos{
+        padding-left: 0;
+        padding-right: 0;
         h6{
         
             font-size: 24px;

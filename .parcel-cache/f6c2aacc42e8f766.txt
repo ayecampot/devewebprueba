@@ -1,4 +1,4 @@
-15702
+15706
 59/home/ayelen/Escritorio/deve-new/scss/_detalleproyecto.scss1676663027702148000 0
 50/home/ayelen/Escritorio/deve-new/scss/main.css.map1677693878665761563 0
 53/home/ayelen/Escritorio/deve-new/scss/_animation.scss1677523588798867000 0
@@ -24,9 +24,12 @@
 53/home/ayelen/Escritorio/deve-new/dist/11.31541b97.png1677622636076175597 0
 59/home/ayelen/Escritorio/deve-new/dist/servicios.b0d15d44.js1677622636124177059 0
 69/home/ayelen/Escritorio/deve-new/dist/pages/servicios.50206e9a.js.map1677622636184178888 0
+69/home/ayelen/Escritorio/deve-new/dist/pages/betterez.f04f831a.css.map1677727442950417129 0
 66/home/ayelen/Escritorio/deve-new/dist/pages/proyectos.f04f831a.css1677622635544159389 0
-58/home/ayelen/Escritorio/deve-new/dist/pages/servicios.html1677693849461467033 0
-43/home/ayelen/Escritorio/deve-new/dist/pages1677693849465467061 1
+65/home/ayelen/Escritorio/deve-new/dist/pages/nosotres.574c7455.css1677727442946416337 0
+58/home/ayelen/Escritorio/deve-new/dist/pages/servicios.html1677727443102447161 0
+65/home/ayelen/Escritorio/deve-new/dist/pages/betterez.f04f831a.css1677727442946416337 0
+43/home/ayelen/Escritorio/deve-new/dist/pages1677727443102447161 1
 55/home/ayelen/Escritorio/deve-new/dist/index.9760bff8.js1677622636128177182 0
 65/home/ayelen/Escritorio/deve-new/dist/fondo-nosotres.20355472.png1677622635792166944 0
 66/home/ayelen/Escritorio/deve-new/dist/fondo-proyectos.aa2a50d4.png1677622635792166944 0
@@ -37,7 +40,7 @@
 57/home/ayelen/Escritorio/deve-new/dist/LOGO-2.5c0efe85.png1677622636140177547 0
 52/home/ayelen/Escritorio/deve-new/dist/1.79653f04.png1677622635944171576 0
 57/home/ayelen/Escritorio/deve-new/dist/fiscal.d37a2175.png1677622635792166944 0
-48/home/ayelen/Escritorio/deve-new/dist/index.html1677693849461467033 0
+48/home/ayelen/Escritorio/deve-new/dist/index.html1677727443102447161 0
 68/home/ayelen/Escritorio/deve-new/dist/comillas-nosotres.fb28de0c.svg1677622636144177669 0
 60/home/ayelen/Escritorio/deve-new/dist/logowhite.02542c46.svg1677622636144177669 0
 59/home/ayelen/Escritorio/deve-new/dist/index.ecb2644b.js.map1677622128544653577 0
@@ -58,7 +61,7 @@
 60/home/ayelen/Escritorio/deve-new/dist/index.f04f831a.css.map1677693880033779327 0
 68/home/ayelen/Escritorio/deve-new/dist/circulo-proyectos.6afe8f74.png1677622636148177791 0
 55/home/ayelen/Escritorio/deve-new/dist/index.ecb2644b.js1677622128540653455 0
-37/home/ayelen/Escritorio/deve-new/dist1677693880033779327 1
+37/home/ayelen/Escritorio/deve-new/dist1677727443102447161 1
 60/home/ayelen/Escritorio/deve-new/node_modules/is-buffer/test1675114691404265000 1
 55/home/ayelen/Escritorio/deve-new/node_modules/is-buffer1675114691264263000 1
 73/home/ayelen/Escritorio/deve-new/node_modules/domelementtype/package.json1675114691608267000 0
@@ -3178,7 +3181,7 @@
 84/home/ayelen/Escritorio/deve-new/node_modules/rxjs/src/observable/EmptyObservable.ts1675114695384311000 0
 76/home/ayelen/Escritorio/deve-new/node_modules/rxjs/add/operator/toPromise.js1675114693532290000 0
 83/home/ayelen/Escritorio/deve-new/node_modules/rxjs/add/operator/windowToggle.js.map1675114695280310000 0
-57/home/ayelen/Escritorio/deve-new/dist/pages/nosotres.html1677693849461467033 0
+57/home/ayelen/Escritorio/deve-new/dist/pages/nosotres.html1677727443102447161 0
 80/home/ayelen/Escritorio/deve-new/node_modules/rxjs/add/operator/partition.js.map1675114695160309000 0
 82/home/ayelen/Escritorio/deve-new/node_modules/rxjs/add/operator/windowCount.js.map1675114695280310000 0
 104/home/ayelen/Escritorio/deve-new/node_modules/rxjs/_esm2015/internal/util/ArgumentOutOfRangeError.js.map1675114693568290000 0
@@ -4197,6 +4200,7 @@
 74/home/ayelen/Escritorio/deve-new/node_modules/source-map/lib/quick-sort.js1675114691740269000 0
 90/home/ayelen/Escritorio/deve-new/node_modules/lighthouse/node_modules/strip-ansi/readme.md1675114691376264000 0
 80/home/ayelen/Escritorio/deve-new/node_modules/lighthouse/node_modules/strip-ansi1675114691380264000 1
+69/home/ayelen/Escritorio/deve-new/dist/pages/nosotres.574c7455.css.map1677727442950417129 0
 115/home/ayelen/Escritorio/deve-new/node_modules/lighthouse/node_modules/yargs-parser/build/lib/tokenize-arg-string.js1675114691672268000 0
 83/home/ayelen/Escritorio/deve-new/node_modules/lighthouse/node_modules/open/xdg-open1675114691296263000 0
 75/home/ayelen/Escritorio/deve-new/node_modules/object-inspect/example/all.js1675114691396265000 0
@@ -6402,7 +6406,7 @@
 90/home/ayelen/Escritorio/deve-new/node_modules/rxjs/src/internal-compatibility/package.json1675114693560290000 0
 91/home/ayelen/Escritorio/deve-new/node_modules/@parcel/runtime-browser-hmr/lib/HMRRuntime.js1675114691732269000 0
 85/home/ayelen/Escritorio/deve-new/node_modules/express/node_modules/debug/src/debug.js1675114691820270000 0
-57/home/ayelen/Escritorio/deve-new/dist/pages/contacto.html1677693849461467033 0
+57/home/ayelen/Escritorio/deve-new/dist/pages/contacto.html1677727443102447161 0
 73/home/ayelen/Escritorio/deve-new/node_modules/lighthouse/report/generator1675114694912306000 1
 108/home/ayelen/Escritorio/deve-new/node_modules/lottie-web/player/js/elements/helpers/shapes/ShapeGroupData.js1675114693444289000 0
 66/home/ayelen/Escritorio/deve-new/node_modules/braces/lib/expand.js1675114924055227000 0
@@ -6958,7 +6962,7 @@
 92/home/ayelen/Escritorio/deve-new/node_modules/csp_evaluator/dist/allowlist_bypasses/flash.js1675114691896271000 0
 92/home/ayelen/Escritorio/deve-new/node_modules/rxjs/_esm5/internal/operators/concatMap.js.map1675114693608291000 0
 90/home/ayelen/Escritorio/deve-new/node_modules/lighthouse/node_modules/chrome-launcher/dist1675114692168274000 1
-57/home/ayelen/Escritorio/deve-new/dist/pages/betterez.html1677693849461467033 0
+57/home/ayelen/Escritorio/deve-new/dist/pages/betterez.html1677727443102447161 0
 70/home/ayelen/Escritorio/deve-new/node_modules/signal-exit/package.json1675114691244263000 0
 66/home/ayelen/Escritorio/deve-new/node_modules/union/examples/after1675114691648268000 1
 98/home/ayelen/Escritorio/deve-new/node_modules/dom-serializer/node_modules/entities/lib/encode.d.ts1675114691908271000 0
@@ -7171,7 +7175,7 @@
 73/home/ayelen/Escritorio/deve-new/node_modules/to-regex-range/package.json1675114924039226000 0
 58/home/ayelen/Escritorio/deve-new/node_modules/async/dir.js1675114692124273000 0
 94/home/ayelen/Escritorio/deve-new/node_modules/@parcel/package-manager/test/fixtures/packages/a1675114692336276000 1
-52/home/ayelen/Escritorio/deve-new/pages/betterez.html1677693376824609000 0
+52/home/ayelen/Escritorio/deve-new/pages/betterez.html1677727429483673788 0
 56/home/ayelen/Escritorio/deve-new/node_modules/css-select1675114692016272000 1
 97/home/ayelen/Escritorio/deve-new/node_modules/lighthouse/node_modules/lighthouse-logger/README.md1675114691480266000 0
 100/home/ayelen/Escritorio/deve-new/node_modules/puppeteer/lib/cjs/puppeteer/common/USKeyboardLayout.js1675114692944283000 0
@@ -7185,7 +7189,7 @@
 90/home/ayelen/Escritorio/deve-new/node_modules/inquirer/node_modules/supports-color/license1675114691380264000 0
 103/home/ayelen/Escritorio/deve-new/node_modules/@parcel/optimizer-data-url/node_modules/mime/CHANGELOG.md1675114691700268000 0
 77/home/ayelen/Escritorio/deve-new/node_modules/caniuse-lite/data/regions/IR.js1675114693100285000 0
-43/home/ayelen/Escritorio/deve-new/index.html1677622814581609105 0
+43/home/ayelen/Escritorio/deve-new/index.html1677694231681895685 0
 63/home/ayelen/Escritorio/deve-new/node_modules/terser/bin/terser1675114691388265000 0
 65/home/ayelen/Escritorio/deve-new/node_modules/lodash/_flatRest.js1675114692640279000 0
 67/home/ayelen/Escritorio/deve-new/node_modules/sprintf-js/.npmignore1675114691168262000 0
@@ -11476,7 +11480,7 @@
 79/home/ayelen/Escritorio/deve-new/node_modules/cross-fetch/polyfill/package.json1675114691788269000 0
 60/home/ayelen/Escritorio/deve-new/node_modules/lodash/flip.js1675114693084284000 0
 60/home/ayelen/Escritorio/deve-new/node_modules/lodash/wrap.js1675114693456289000 0
-58/home/ayelen/Escritorio/deve-new/dist/pages/proyectos.html1677693849461467033 0
+58/home/ayelen/Escritorio/deve-new/dist/pages/proyectos.html1677727443102447161 0
 73/home/ayelen/Escritorio/deve-new/node_modules/lodash/isArrayLikeObject.js1675114693152285000 0
 68/home/ayelen/Escritorio/deve-new/node_modules/lodash/_stackDelete.js1675114692856282000 0
 69/home/ayelen/Escritorio/deve-new/node_modules/mime-types/package.json1675114691256263000 0

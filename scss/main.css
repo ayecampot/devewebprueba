@@ -6,6 +6,7 @@
   text-decoration: none;
   color: inherit;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .mt {
@@ -1405,7 +1406,57 @@ ul {
   border-top: 3px solid #0067A8;
   border-radius: 0 0 20px 21px;
 }
-.services-section .services-card {
+.services-section .services-card .hr-services {
+  border-width: 0px;
+  margin-bottom: 7rem;
+}
+.services-section .services-card .service-card {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  background: rgba(217, 217, 217, 0.1);
+  border: 1px solid rgba(83, 46, 127, 0.2);
+  border-radius: 0px 0px 20px 21px;
+  border-width: 3px;
+  border-style: solid;
+  border-top-color: #009FDB;
+}
+.services-section .services-card .service-card p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+  color: #3B3B3B;
+}
+.services-section .services-card .service-card .card-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services-section .services-card .service-card .card-icon p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.service-6 {
+  margin-bottom: 4rem;
+}
+
+.technology {
+  margin-bottom: rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #EE7D5A 0%, #EE7D5A 50%, white 0%, white 50%);
+}
+.technology .service-card {
   display: flex;
   align-items: center;
   margin: 4rem 3rem 4rem 3rem;
@@ -1415,8 +1466,9 @@ ul {
   border-width: 3px;
   border-style: solid;
   border-top-color: #009FDB;
+  scroll-behavior: smooth;
 }
-.services-section .services-card p {
+.technology .service-card p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 300;
@@ -1424,12 +1476,55 @@ ul {
   line-height: 180%;
   color: #3B3B3B;
 }
-.services-section .services-card .card-icon {
+.technology .service-card .card-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.services-section .services-card .card-icon p {
+.technology .service-card .card-icon p font-famil .service-card {
+  display: flex;
+  align-items: center;
+  margin: 4rem 3rem 4rem 3rem;
+  background: rgba(217, 217, 217, 0.1);
+  border: 1px solid rgba(83, 46, 127, 0.2);
+  border-radius: 0px 0px 20px 21px;
+  border-width: 3px;
+  border-style: solid;
+  border-top-color: #009FDB;
+  scroll-behavior: smooth;
+}
+.technology .service-card .card-icon p font-famil .service-card p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+  color: #3B3B3B;
+}
+.technology .service-card .card-icon p font-famil .service-card .card-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.technology .service-card .card-icon p font-famil .service-card .card-icon p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+.technology .service-card .card-icon .technology {
+  margin-bottom: rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #EE7D5A 0%, #EE7D5A 50%, white 0%, white 50%);
+  font-style: "Inter", sans-serif;
+  z-index: 10;
+}
+.technology .service-card .card-icon .technology-logos {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -1445,6 +1540,11 @@ ul {
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, #EE7D5A 0%, #EE7D5A 50%, white 0%, white 50%);
+  font-style: "Inter", sans-serif;
+  z-index: 10;
+}
+
+.technology-logos {
   font-style: "Inter", sans-serif;
   z-index: 10;
 }

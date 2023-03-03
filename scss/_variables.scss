@@ -1,12 +1,13 @@
 
 * {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-    color: inherit;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
 //Colors
 $violet: #5B3587;
@@ -32,6 +33,6 @@ $fontInter:'Inter', sans-serif;
 $fontSpartan: 'Spartan', sans-serif;
 
 .mt{
-  margin-top: 4rem;
+margin-top: 4rem;
 }
 $animationSpeed: 8s;

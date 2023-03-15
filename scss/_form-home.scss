@@ -58,24 +58,26 @@
 
 .text-contact{
   margin-top: 5rem;
-  font-family: 'Inter';
+  color: $ultraBlack;
+  align-self: center;
+  font-family: 'Spartan';
   font-style: normal;
-  font-weight: 800;
-  font-size: 36px;
+  font-weight: 700;
+  font-size: 50px;
   line-height: 120%;
-  color: #000000;
+  letter-spacing: 0.015em;
  
 
 }
 
 .p-contact{
-    margin-top: 0.5rem;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 120%;
-    color: #000000;
+  margin-top: 0.5rem;
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  color: $black;
     
 }
 
@@ -390,7 +392,7 @@ p {
   position: relative;
   z-index: 1;
   transform: translateY(-114%);
-  opacity: 0.6;
+  opacity: 0.4;
 }
 
 

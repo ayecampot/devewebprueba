@@ -268,6 +268,7 @@
             font-size: 16px;
             line-height: 180%;
             color: #FFFFFF;
+            margin-top: 1.5rem;
         }
         .codigo-libre-d{
             display:inline;
@@ -389,8 +390,9 @@
         }
     
         .text-nosotres{
+         
             margin-top: 4rem;
-            padding-bottom: 3rem;
+            padding-bottom: 0rem;
             margin-left:2rem;
             color: $white;
             font-family: 'Inter';
@@ -400,6 +402,9 @@
             line-height: 120%;
             span{
                 color:$yellow;
+            }
+            h4{
+                transform: translateY(-33%);
             }
         .text-nosotres{
             transform: translateX(-55%);

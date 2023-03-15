@@ -20,22 +20,25 @@
     padding-left:3rem;
 
    h1{
-    font-family: 'Inter';
-      font-style: normal;
-      font-weight: 800;
-      font-size: 48px;
-      line-height: 120%;
-      color: #000000;
+    color: $ultraBlack;
+    align-self: center;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    letter-spacing: 0.015em;
+    
       }
       
       p{
-          margin-top: 0.5rem;
-          font-family: 'Inter';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 30px;
-          line-height: 120%;
-          color: #000000;
+        margin-top: 0.5rem;
+        font-family: 'Spartan';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 120%;
+        color: $black;
         
       }
       img{
@@ -276,8 +279,10 @@
         padding-left: 0;
         padding-right: 0;
         h6{
-        
+            margin-left: 0.5rem;
+            margin-left: 0.5rem;
             font-size: 24px;
+            text-align: center;
            
         }
     .clients-logos-img{

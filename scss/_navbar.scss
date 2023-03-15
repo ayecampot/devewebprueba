@@ -13,8 +13,8 @@ ul {
         width: 100%;
         z-index: 1000;
         .shrink {
-            margin-top: 2rem;
-            margin-bottom: 0.5rem;
+            margin-top: 1rem;
+            margin-bottom: 0rem;
             height:50vh;
             max-height: 69px;
             overflow: hidden;
@@ -27,6 +27,7 @@ ul {
             color: white;
             font-size: 60px;
             margin-left: 15px;
+          
         }
         .nav {
             display: flex;
@@ -95,7 +96,7 @@ ul {
             cursor: pointer;
             position: absolute;
             right: 0;
-            margin: 50px 20px 20px 20px;
+            margin:33px 20px 20px 20px;
             height: 29px;
            
             .hamb-line {

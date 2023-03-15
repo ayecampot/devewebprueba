@@ -554,7 +554,7 @@
       .tecnologies-mobile{
         text-align: center;
         color: #5b3587;
-        padding-top: 1rem;
+        padding-top: 0rem;
         padding-bottom: 2rem;
         font-family: Inter;
         font-size: 27px;
@@ -620,5 +620,15 @@
         }
         .mobile-services-logos{
           display:block
+        }
+
+        .technology-traslate{
+          transform: translateY(150%);
+          padding-top: 0rem;
+          padding-bottom: 0rem;
+      
+        }
+        .m-services{
+          margin-bottom: 2rem;
         }
 }

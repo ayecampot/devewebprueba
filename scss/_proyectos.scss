@@ -120,13 +120,7 @@
    
 }
 
-.ruedas{
-    display:block;
-    position: absolute;
-    z-index: 200;
-    transform: translate(35%, 372%);
-   
-}
+
 
 .circulo-proyecto{
     display:block;
@@ -204,9 +198,7 @@
          width: 90%;
           
         }
-        .ruedas{
-            transform: translate(25%, 288%);
-        }
+      
         .circulo-proyecto {
             transform: translate(550%, 45%);
         }
@@ -224,10 +216,7 @@
 
 @media (max-width: 1167px) {
 
-    .ruedas{
-        display:none;
-       
-    }
+  
     .circulo-proyecto{
         display:none;
     }
@@ -252,6 +241,9 @@
         width: 100%;
         display: flex;
         justify-content: center;
+       }
+       .text{
+        padding-left:2rem;
        }
     
     }
@@ -293,10 +285,7 @@
     }
         
 
-    .ruedas{
-        display:none;
-       
-    }
+
     .circulo-proyecto{
         display:block;
         margin-left:1rem;

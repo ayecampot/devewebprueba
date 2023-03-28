@@ -32,7 +32,7 @@
 .title-services{
    
         h2{
-            color: $yellow;
+            color: $violet;
             font-family: 'Inter';
             font-style: normal;
             font-weight: 700;
@@ -52,7 +52,7 @@
         font-size: 17px;
         line-height: 32px;
         text-align: center;
-        color: $white;
+        color: $ultraBlack;
         }
         
 }
@@ -73,7 +73,7 @@
 }
 
 .purple {
-    background-color: $violet;
+    background-color: #EEEFE8;
     background-size:cover;
     background-attachment: fixed;
     grid-column: 2/3; /* purple en la columna 2 */
@@ -122,19 +122,17 @@
             height:auto;
         
         }
-      
         h3{
             font-family: 'Inter';
             font-style: normal;
             font-weight: 700;
             font-size: 20px;
             line-height: 180%;
-            color:$lightBlue;
+            color:$violet;
             margin-bottom: 1rem;
             margin-top: 1rem;
         }
         p {
-          
             font-family: 'Inter';
             font-style: normal;
             font-weight: 300;
@@ -180,9 +178,7 @@
     .right-photo{
         display:flex;
         justify-content: end;
-      
     }
-   
 
 } 
 
@@ -269,13 +265,12 @@
     .bg { /* Grid principal */
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
-      
     }
     .text-blue{
         left: 20%;
         padding: 3rem 9.375rem 3rem 9.375rem;
     }
-     .img__container{
+    .img__container{
         .card__img {
             width: 55%;
         
@@ -284,16 +279,11 @@
 
 
 .hero{
-  
-      
     h1{
-       padding-left: 15rem;
-       font-size: 55px;
+    padding-left: 15rem;
+    font-size: 55px;
     }
-   
-      
-    
-}
+    }
 
 }
 
@@ -302,7 +292,6 @@
     .bg { 
         display: grid;
         grid-template-columns: 0fr 3fr 0fr;
-      
     }  
 
     .cards {
@@ -329,7 +318,6 @@
         display: flex;
         justify-content:space-between;
         margin-top:5rem;
-     
     
         img{
             width: 90%;
@@ -342,15 +330,12 @@
         .left-photo{
             align-self:flex-end;
             margin:0;
-         
         }
     
         .right-photo{
             display:none;
             justify-content: end;
-          
         }
-       
     
     } 
 
@@ -387,10 +372,8 @@
 
     .section-clients {
         margin-top: 4rem;
-     margin-bottom: 2rem; 
-    }
-
-    
+        margin-bottom: 2rem; 
+    } 
 }
 
 

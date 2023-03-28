@@ -65,6 +65,9 @@
         margin-top: 7rem;
         opacity: 0.1;
         transform: translate(40%,-35%);
+        img{
+            opacity: 1.20;
+        }
     }
 
     .text-nosotres{
@@ -88,6 +91,13 @@
       
     }
 } 
+
+.origenes-title{
+    display: flex;
+    img{
+        margin-top: 1rem;
+    }
+}
 
 .flex-nosotres{
     background-color: #fff;
@@ -204,6 +214,7 @@
             right: 0;
             text-align: center;
             z-index: 10;
+            transform: translateY(-90%);
         }
         
         .carousel-indicators li {
@@ -344,6 +355,7 @@
 
     .services .text {
         margin-top: 3rem;
+        padding-left: 2rem;
     }
 
     .software-libre{
@@ -417,9 +429,12 @@
     
     }  
 
-
-    
-    
-   
     }  
+
+.origenes-title{
+    img{
+        overflow: hidden;
+    }
 }
+}
+

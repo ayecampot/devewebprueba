@@ -29,7 +29,7 @@ ul {
 .header .shrink {
   margin-top: 1rem;
   margin-bottom: 0rem;
-  height: 50vh;
+  height: 45vh;
   max-height: 69px;
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
@@ -306,7 +306,7 @@ ul {
 }
 
 .title-services h2 {
-  color: #F9D83D;
+  color: #5B3587;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -326,7 +326,7 @@ ul {
   font-size: 17px;
   line-height: 32px;
   text-align: center;
-  color: #FFFFFF;
+  color: #292929;
 }
 
 .bg { /* Grid principal */
@@ -344,7 +344,7 @@ ul {
 }
 
 .purple {
-  background-color: #5B3587;
+  background-color: #EEEFE8;
   background-size: cover;
   background-attachment: fixed;
   grid-column: 2/3; /* purple en la columna 2 */
@@ -397,7 +397,7 @@ ul {
   font-weight: 700;
   font-size: 20px;
   line-height: 180%;
-  color: #009FDB;
+  color: #5B3587;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -775,7 +775,7 @@ ul {
     justify-content: space-around;
     align-items: stretch;
     width: 100%;
-    padding-bottom: 5rem;
+    padding-bottom: 0rem;
     padding-top: 8rem;
     z-index: 10;
     position: relative;
@@ -818,6 +818,7 @@ ul {
     background: #fbb;
   }
   input {
+    margin-top: 1rem;
     box-sizing: border-box;
     background: none;
     color: #5B3587;
@@ -1165,13 +1166,6 @@ ul {
   align-items: center;
 }
 
-.ruedas {
-  display: block;
-  position: absolute;
-  z-index: 200;
-  transform: translate(35%, 372%);
-}
-
 .circulo-proyecto {
   display: block;
   position: absolute;
@@ -1236,9 +1230,6 @@ ul {
     margin-top: 5rem;
     width: 90%;
   }
-  .ruedas {
-    transform: translate(25%, 288%);
-  }
   .circulo-proyecto {
     transform: translate(550%, 45%);
   }
@@ -1251,9 +1242,6 @@ ul {
   }
 }
 @media (max-width: 1167px) {
-  .ruedas {
-    display: none;
-  }
   .circulo-proyecto {
     display: none;
   }
@@ -1273,6 +1261,9 @@ ul {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+  .proyects .text {
+    padding-left: 2rem;
   }
   .proyects-cards article {
     width: 100%;
@@ -1295,9 +1286,6 @@ ul {
   }
   .clients-logos .clients-logos-img img {
     margin-left: 0rem;
-  }
-  .ruedas {
-    display: none;
   }
   .circulo-proyecto {
     display: block;
@@ -1967,6 +1955,9 @@ button {
   opacity: 0.1;
   transform: translate(40%, -35%);
 }
+.nosotres-frase .comillas-nosotres img {
+  opacity: 1.2;
+}
 .nosotres-frase .text-nosotres {
   margin-top: 4rem;
   margin-bottom: 3rem;
@@ -1983,6 +1974,13 @@ button {
 .nosotres-frase .nosotres-trama {
   display: block;
   transform: translate(48%, -50%);
+}
+
+.origenes-title {
+  display: flex;
+}
+.origenes-title img {
+  margin-top: 1rem;
 }
 
 .flex-nosotres {
@@ -2085,6 +2083,7 @@ button {
   right: 0;
   text-align: center;
   z-index: 10;
+  transform: translateY(-90%);
 }
 .flex-nosotres .img-carousel .carousel-indicators li {
   display: inline-block;
@@ -2199,6 +2198,7 @@ button {
   }
   .services .text {
     margin-top: 3rem;
+    padding-left: 2rem;
   }
   .software-libre .t-software-libre {
     padding: 4rem 0rem 0 0rem;
@@ -2258,6 +2258,9 @@ button {
   }
   .nosotres-frase .nosotres-trama {
     display: none;
+  }
+  .origenes-title img {
+    overflow: hidden;
   }
 }
 .header-project {
